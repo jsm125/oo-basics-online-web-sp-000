@@ -1,6 +1,6 @@
 # Make your shoe class here!
 
-class Brand
+class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
   
@@ -9,7 +9,7 @@ class Brand
   end
   
   def cobble
-    puts "show has been repaired"
+    puts "shoe has been repaired"
     @condition = new 
   end
 end
